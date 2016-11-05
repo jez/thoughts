@@ -1,0 +1,6 @@
+.*.sw[nop]
+tags
+
+_site
+.sass-cache
+.jekyll-metadata

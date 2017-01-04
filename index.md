@@ -14,17 +14,22 @@ personal site].
 [tech blog]: http://blog.jez.io
 [my personal site]: https://jez.io
 
+## Collections
+
+- [On Stripe](on-stripe/)
+
 {% capture numposts %}{{ site.posts | size }}{% endcapture %}
 {% if numposts != '0' %}
-## Posts
+## Essays
 
 {% for post in site.posts %}{% assign currentyear = post.date | date: "%Y" %}{% if currentyear != prevyear %}
 ### {{ currentyear }}
 {% assign prevyear = currentyear %}{% endif %} - [{{ post.title }}]({{ site.baseurl }}{{ post.url }}), {{ post.date | date: '%B %-d' }}
 {% endfor %}
+{% else %}
+## Essays
+
+- *None to show.*
 {% endif %}
 
 
-## Multi-part Series
-
-- [On Stripe](on-stripe/)

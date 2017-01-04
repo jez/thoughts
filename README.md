@@ -22,7 +22,3 @@ octopress publish
 octopress new page
 ```
 
-## TODO
-
-- Set up Octopress deployment
-- Write something

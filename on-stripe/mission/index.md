@@ -135,3 +135,8 @@ plan through is talented and rigorous, and is headed by two great men. Overall,
 I'm excited to be a part of Stripe, and I look forward to seeing where we go.
 
 </section>
+<section>
+
+[Return to *On Stripe*](..)
+
+</section>

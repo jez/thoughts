@@ -1,0 +1,137 @@
+---
+layout: page
+title: "On Stripe"
+subtitle: "Mission, Values, & Culture"
+date: "2016-11-13T02:21:07-05:00"
+---
+
+Stripe is an amazing place to work, due in no small part to its mission and
+values. They're woven through everything that happens at Stripe.
+
+<section>
+
+<span class="newthought">I'll be honest: I came in to Stripe</span> utterly
+unfit to answer questions posed by my friends like, "Oh, you're interning at
+Stripe? What do they do?" An innocuous question sure, but equally difficult for
+me to answer. It wasn't until my first day that I learned the answer. I'm really
+passionate about what Stripe does; it's both worthwhile in the long run and
+engaging on a daily basis.
+
+So what is Stripe? If you ever get the chance to meet with someone on the PR
+team, they might say something like:
+
+> Stripe is a software platform for building an internet business. Stripe helps
+> companies like Lyft, Kickstarter, Facebook, and others sell to anyone,
+> anywhere, and in new ways.
+
+This is heavily steeped in PR rhetoric, but nonetheless does a good job of
+setting the stage. There's a lot of meaning squished into those two sentences,
+so let's un-squish it.
+
+- **Stripe is a software platform.** It's software that enables other software.
+  But what *kind* of software does it enable?
+- **Stripe is for building an internet business.** Stripe's software aims to
+  simplify the process of conducting business online. This is purposefully
+  broad, but for example, Stripe helps business accept payments, keep track of
+  customers, analyze fraud, simplify subscriptions, and more.
+- **Stripe has big-name customers.** This isn't just some random startup. Stripe
+  is the go-to choice for many established companies, in addition to smaller
+  upstarts.
+- **Stripe helps others sell to anyone, anywhere, and in new ways.** Companies
+  in in more than 20 countries and customers around the world can transact using
+  Stripe. Stripe also focuses on how to make complicated problems simple,
+  leading to new, better products for businesses.
+
+That's "what Stripe is," but that's not "what excites me about Stripe." I don't
+run an internet business, certainly never one headquartered overseas.
+Nevertheless, Stripe appeals to me individually.
+
+Stripe puts developers first. While Stripe's product is for businesses, it's the
+software developers at that business who directly consume the product. Those
+developers take significant time and effort to build their app or product on top
+of the software platform that Stripe curates. Being a developer, I can't help
+but smile that a company has it's priorities this far aligned with my peers.
+
+This is a two-way street as well. It's awesome to work at a company that my
+peers recognize as a valuable and reputable tool for building the things they
+want to. When I tell my friends I work at Stripe, I say it like a badge of
+honor, because I feel like I've contributed back to my community.
+
+In line with this, Stripe's business intentions are clear. Stripe earns money on
+every transaction. It's in Stripe's best interest to help businesses grow,
+because Stripe can't profit without first helping other businesses to profit.
+This is quite different from how many other internet companies work. Some make
+money by advertising, which usually[^ads] amounts to a company stealing it's users
+personal information. Other companies use marketing campaigns to trick customers
+into buying something that's somewhat useful, but which they might not really
+need. On the other hand, Stripe provides a real need and profits along side
+them, not in spite of them.
+
+[^ads]:
+  Let it be known I have a rather antagonistic view of advertising in general.
+
+This idea of helping businesses grow isn't just an afterthought: it's another of
+Stripe's core values. Phrased a little differently, Stripe arms upstarts to
+compete with well-established contenders. Companies like Amazon have the size
+and sway to chat with a bank, set up an account, and procure the ability to
+charge credit cards. The college freshman making a business from a laptop in a
+dorm room might not have that luxury. Stripe enables upstarts like this to start
+accepting payments from day one.
+
+That's a pretty cool image. The internet should be a place where anyone can
+carve out their own homestead, rather than only those with an army big enough to
+fight for them. By arming upstarts, Stripe empowers future generations to use
+the internet to change their little (or big!) part of the world.
+
+</section>
+<section>
+
+<span class="newthought">So for a number of reasons</span>, Stripe's mission
+excites me. The future Stripe sees for the internet is a future I'd be proud to
+say I helped create. But Stripe's vision is only the foundation upon which a
+company culture is built. Stripe's culture inspired personal growth while
+encouraging teams to work better together.
+
+First, the people at Stripe were[^past] ridiculously talented, pervasively
+thoughtful, and humble. By "ridiculously talented," I'm talking about the
+feeling where you walk into a meeting and feel like the least talented person
+there---every time. To exemplify "pervasively thoughtful," at company-wide all
+hands meetings, it seemed like everyone was two steps ahead with an insightful
+question. And throughout it all people at Stripe were humble. Certainly each
+person is different, but I saw some degree each of these traits in everyone at
+Stripe.
+
+[^past]: {-}
+  I don't mean to imply that this *is no longer* the case! While I write this,
+  writing this, I am not *currently* at Stripe; I'm addressing my experience.
+
+At the top of it all are two confident and passionate co-founders: John and
+Patrick Collison. In a company full of talented and thoughtful people, this duo
+topped the charts. Richard Hamming talks of "first-class" people in his seminar
+*You and Your Research*[^research]. Whenever I think of the kinds of people
+Hamming describes in this talk, I immediately think of these two, because
+hearing them speak inspires a sense of drive to become better. Just, truly great
+men.
+
+[^research]:
+  [You and Your Research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html),
+  by Richard Hamming. *Worth the read.*
+
+Speaking from a broader perspective, the culture at Stripe is fueled by a sense
+of urgency. While Stripe has been around longer than most startups, it's by no
+means well established. While I don't see it flopping any time soon, people at
+Stripe still act as though they have something to prove. This sense of urgency
+stems from a fear of Stripe not reaching it's full potential. A fear of not
+bringing Stripe's dream for the internet to fruition. People worked hard without
+overworking themselves due to this air of urgency.
+
+</section>
+<section>
+
+<span class="newthought">Stripe's mission and core values</span> resonate with
+me strongly as worthwhile and challenging in the large, but also as something I
+can personally identify with. The group of people Stripe has chosen to see this
+plan through is talented and rigorous, and is headed by two great men. Overall,
+I'm excited to be a part of Stripe, and I look forward to seeing where we go.
+
+</section>

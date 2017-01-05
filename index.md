@@ -6,17 +6,26 @@ subtitle: A collection of my thoughts and writings
 # items aren't wrapped in paragraphs.
 ---
 
-This site contains longer form, usually non-technical pieces of my writing. I
-also have a [tech blog] where I discuss technical topics that I'm passionate
-about. If you'd like to read more about who I am and what I've done, see [my
-personal site].
+Here I write essays and pieces about what's on my mind. I also have a [tech
+blog] where I discuss technical topics that I'm passionate about. If you'd like
+to read more about who I am and what I've done, see [my personal site].
 
 [tech blog]: http://blog.jez.io
 [my personal site]: https://jez.io
 
+{% comment %}
+<!--
+NOTE(jez): There are no collections currently. If you ever want to group a
+number of essays into a collection, feel free to implement it however (note:
+upon your first attempt, you settled for just doing it manually, then decided
+against writing multiple essays at all.
+-->
+
 ## Collections
 
 - [On Stripe](on-stripe/)
+
+{% endcomment %}
 
 {% capture numposts %}{{ site.posts | size }}{% endcapture %}
 {% if numposts != '0' %}

@@ -3,3 +3,5 @@ layout: {{ layout }}
 title: "{{ title }}"
 date: {{ date }}
 ---
+
+" vim:tw=72

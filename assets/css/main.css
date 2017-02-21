@@ -345,6 +345,14 @@ article > ul {
   section > ul,
   article > ul {
     width: 85%; } }
+/*
+ * Enable hyphens on supported platforms
+ */
+article {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
+
 /* For smart quotes */
 q {
   quotes: "“" "”" "‘" "’"; }

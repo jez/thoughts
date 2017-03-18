@@ -4,6 +4,9 @@ a[href$=".pdf"]::after {
 }
 
 /* Style the blockquotes with a fancy quote character */
+blockquote p:first-child {
+  position: relative;
+}
 blockquote p:first-child::before {
   content: "“";
   display: block;

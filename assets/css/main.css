@@ -263,6 +263,20 @@ label.sidenote-number {
 label.margin-toggle:not(.sidenote-number) {
   display: none; }
 
+.iframe-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+
+.iframe-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 @media (max-width: 760px) {
   body {
     width: 84%;
@@ -275,8 +289,11 @@ label.margin-toggle:not(.sidenote-number) {
   pre.code {
     width: 97%; }
 
-  ul {
-    width: 85%; }
+  section > ol {
+    width: 90%; }
+
+  section > ul {
+    width: 90%; }
 
   figure {
     max-width: 90%; }

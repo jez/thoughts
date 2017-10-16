@@ -15,3 +15,39 @@ blockquote p:first-child::before {
   top: 0.9rem;
   left: -3.4rem;
 }
+
+p, ol, ul { line-height: 2rem; }
+
+li:not(:first-child) {
+  margin-top: 0.25rem;
+}
+
+section > p, section > footer, section > table { width: 55%; }
+
+/* 5 + 50 == 55, to be the same width as <p>  */
+section>ol, section>ul { width: 50%;
+                         -webkit-padding-start: 5%; }
+
+/* TODO(jez) These are hacks to test with; remove when upstream gets merged */
+p, footer, table { width: initial; }
+li { padding: 0px; }
+
+/* ------------------------------------------------------------------------- */
+
+/* TODO(jez) Fix code font size */
+code {
+  font-size: 1.1rem;
+}
+
+/* TODO(jez) Fix blockquote italics */
+/* TODO(jez) Does using an empty <p> tag work to force not last child? */
+blockquote *:not(:last-child) {
+  font-style: italic;
+}
+
+/* TODO(jez) Where is 'hyphens: true' being set? */
+/* Sidenotes end up with a bunch of hyphens because they're so small */
+.sidenote,
+.marginnote {
+  hyphens: none;
+}

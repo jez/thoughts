@@ -15,3 +15,8 @@ blockquote p:first-child::before {
   top: 0.9rem;
   left: -3.4rem;
 }
+/* If the last line is not an attribution line, add an empty
+ * <p></p> so that the last paragraph is properly italicized. */
+blockquote *:not(:last-child) {
+  font-style: italic;
+}

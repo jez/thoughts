@@ -4,4 +4,5 @@ title: "{{ title }}"
 date: "{{ date }}"
 ---
 
-" vim:tw=72
+<!-- vim:tw=72
+-->

@@ -71,10 +71,10 @@ section {
   padding-bottom: 1rem; }
 
 p, ol, ul {
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  line-height: 2rem; }
 
 p {
-  line-height: 2rem;
   margin-top: 1.4rem;
   margin-bottom: 1.4rem;
   padding-right: 0;
@@ -110,13 +110,19 @@ blockquote footer {
   font-size: 1.1rem;
   text-align: right; }
 
+section > p, section > footer, section > table {
+  width: 55%; }
+
+/* 50 + 5 == 55, to be the same width as paragraph */
 section > ol, section > ul {
-  width: 45%;
-  -webkit-padding-start: 5%;
-  -webkit-padding-end: 5%; }
+  width: 50%;
+  -webkit-padding-start: 5%; }
 
 li {
-  padding: 0.5rem 0; }
+  padding: 0; }
+
+li:not(:first-child) {
+  margin-top: 0.25rem; }
 
 figure {
   padding: 0;
@@ -209,9 +215,6 @@ blockquote .sidenote, blockquote .marginnote {
   min-width: 59%;
   text-align: left; }
 
-p, footer, table {
-  width: 55%; }
-
 div.fullwidth, table.fullwidth {
   width: 100%; }
 
@@ -283,7 +286,7 @@ label.margin-toggle:not(.sidenote-number) {
     padding-left: 8%;
     padding-right: 8%; }
 
-  p, footer {
+  section > p, section > footer, section > table {
     width: 100%; }
 
   pre.code {
@@ -335,8 +338,13 @@ label.margin-toggle:not(.sidenote-number) {
   img {
     width: 100%; } }
 /* The default x-height for code is slightly too large in side notes */
-.marginnote code, .sidenote code {
+.marginnote code,
+.sidenote code {
   font-size: 0.9rem; }
+
+/* ... and slightly to small in body text. */
+code {
+  font-size: 1.1rem; }
 
 /* Make "Home" link small */
 p.signoff {
@@ -352,16 +360,15 @@ section > ol,
 article > ol,
 section > ul,
 article > ul {
-  width: 45%;
-  -webkit-padding-start: 5%;
-  -webkit-padding-end: 5%; }
+  width: 50%;
+  -webkit-padding-start: 5%; }
 
 @media (max-width: 760px) {
   section > ol,
   article > ol,
   section > ul,
   article > ul {
-    width: 85%; } }
+    width: 90%; } }
 /*
  * Enable hyphens on supported platforms
  */
@@ -369,6 +376,11 @@ article {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto; }
+
+/* Sidenotes end up with a bunch of hyphens because they're so small */
+.sidenote,
+.marginnote {
+  hyphens: none; }
 
 /* For smart quotes */
 q {

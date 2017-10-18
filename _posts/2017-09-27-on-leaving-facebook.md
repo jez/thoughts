@@ -9,7 +9,7 @@ date: 2017-09-27T01:58:31-07:00
 I've uninstalled Facebook and Facebook Messenger from my phone, and am
 no longer going to be checking the Facebook or Messenger websites. I
 still want to make it easy for people to get ahold of me, which you can
-find more about below.
+[find more about below](#contacting-me).
 
 This has been a long time in the making for me. Almost 2 years ago I
 restricted my use of Facebook to 30 minutes a day. Shortly after that I

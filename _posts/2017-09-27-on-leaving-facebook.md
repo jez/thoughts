@@ -171,9 +171,9 @@ communities.
 
 ### "Are you saying that Facebook's service provides zero value?"
 
-Like with any service, you pay a cost[^cost] to use Facebook's service, and
-receive value in return. I judged what I gave up and what I got back and
-realized I was net negative in terms of value.
+Like with any service, you pay a cost[^cost] to use Facebook's service,
+and receive value in return. I judged what I gave up and what I got back
+and realized I was net negative in terms of value.
 
 [^cost]:
   {-} To be clear: I'm talking about both monetary and social costs

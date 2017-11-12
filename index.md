@@ -6,12 +6,16 @@ subtitle: A collection of my thoughts and writings
 # items aren't wrapped in paragraphs.
 ---
 
+<section>
+
 Here I write essays and pieces about what's on my mind. I also have a [tech
 blog] where I discuss technical topics that I'm passionate about. If you'd like
 to read more about who I am and what I've done, see [my personal site].
 
 [tech blog]: http://blog.jez.io
 [my personal site]: https://jez.io
+
+</section>
 
 {% comment %}
 <!--

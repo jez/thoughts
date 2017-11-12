@@ -19,12 +19,12 @@ Facebook product anymore.
 
 The only thing left to go was Messenger. I used Messenger almost
 exclusively in college both for chatting with friends but also for
-reaching out to people I happened to meet---it was the last thing to go.
-Today, I've finally uninstalled Messenger from my phone.
+reaching out to people I happened to meet. Today, I've finally
+uninstalled Messenger from my phone.
 
-It's rare right now for people to actively leave Facebook, but I have
-met many people who wish they could or are trying to. Since it's so
-uncommon, here's why *I've* made this choice:
+It's rare right now for people to actively leave Facebook, but a handful
+of people wish they could or are trying to. Since it's so uncommon,
+here's why *I've* made this choice:
 
 </section>
 
@@ -45,8 +45,8 @@ This has been written about extensively, but here are some links:
 - [Reasons not to use Facebook](https://stallman.org/facebook.html)
     - This post by Richard Stallman is a bit exhausting, but at least
       it's in character. Stallman brings forth a laundry list of points;
-      each one is easy to dismiss individually, but taken in sum, it's
-      eerie to say the least.
+      each one is easy to dismiss individually, but they're eerie when
+      taken in sum.
 
 Privacy is a sneakily important topic.[^1984] When you have it, it's
 easy to forget what kind of world it would be if we gave it up.
@@ -59,7 +59,7 @@ easy to forget what kind of world it would be if we gave it up.
 
 ## Facebook Is a Threat to the Open Internet
 
-With regard to the Internet, I'll forever be an idealist:
+With regard to the Internet, I'm definitely an idealist.
 
 > Governments of the Industrial World, you weary giants of flesh and
 > steel, I come from Cyberspace, the new home of Mind. On behalf of the
@@ -71,7 +71,7 @@ With regard to the Internet, I'll forever be an idealist:
 
 
 Barlow wrote this letter in 1996---over 20 years ago. We owe a debt of
-gratitude to all those who worked to make the Internet a place that
+gratitude to all those who worked to make the Internet a tool that
 anyone can use. Nominally, Facebook's goal of a more interconnected
 world is in line with this original vision. But counterintuitively, much
 of what Facebook is working towards tears down the progress we've
@@ -79,8 +79,8 @@ already made.
 
 To read more about this, I suggest [The Web We Have to Save][web-save].
 After being pardoned from Iranian imprisonment for being an open web
-advocate, the author comments gives his perspective on what happened to
-the Internet over the 6 years he was away from it.
+advocate, the author gives his perspective on what happened to the
+Internet over the 6 years he was away from it.
 
 It's not too late to stop this. The Internet was made to be open, and we
 can still make sure that it is.
@@ -107,8 +107,8 @@ love to see become the default:
 
 - [Solid] is a project by Tim Berners-Lee and MIT to give data ownership
   back to those who use web apps, as opposed to those who run them.
-  Imagine Facebook, but where all your posts, images, and friend lists
-  belonged to you, rather than Facebook.
+  Imagine Facebook, but where all your posts, all your images, and your
+  friend list belongs to you, rather than Facebook.
 
 - [Keybase] is pioneering new experiences around encryption, with a goal
   of making encryption the default in all software. For more about how
@@ -162,7 +162,7 @@ public communities.
 
 With regard to open source specifically, what we really want is to find
 better ways to build and grow open source communities. Mozilla and
-Redhat are a fascinating case studies for companies releasing open
+Redhat are fascinating case studies for companies releasing open
 source software, but not everyone can follow this model. Patreon and
 Kickstarter have helped fund *individual maintainers*, and there are
 similar efforts to grow support at the community level. Even switching
@@ -181,10 +181,9 @@ realized I was net negative in terms of value.
 
 For the most part, this deficit comes from the high cost, as opposed to
 low value---Facebook still provides a lot of value. Even for Facebook
-users that only use Messenger there's a lot of value; when you throw the
-value people get from features like being able to share posts and
-participate in groups into the mix, Facebook's value prop gets even
-larger.
+users that only use Messenger there's a lot of value; when you throw
+into the mix the value people get from features like being able to share
+posts and participate in groups, Facebook's value prop gets even larger.
 
 The main value I got from Facebook was sending messages. Given that
 there are other ways to send messages at a lower cost, this choice makes

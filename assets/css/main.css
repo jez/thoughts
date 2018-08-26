@@ -27,7 +27,7 @@ h2 {
   font-style: italic;
   font-weight: 400;
   margin-top: 2.1rem;
-  margin-bottom: 0;
+  margin-bottom: 1.4rem;
   font-size: 2.2rem;
   line-height: 1; }
 
@@ -36,7 +36,7 @@ h3 {
   font-weight: 400;
   font-size: 1.7rem;
   margin-top: 2rem;
-  margin-bottom: 0;
+  margin-bottom: 1.4rem;
   line-height: 1; }
 
 hr {
@@ -118,9 +118,6 @@ section > ol, section > ul {
   width: 50%;
   -webkit-padding-start: 5%; }
 
-li {
-  padding: 0; }
-
 li:not(:first-child) {
   margin-top: 0.25rem; }
 
@@ -195,7 +192,6 @@ img {
   counter-increment: sidenote-counter; }
 
 .sidenote-number:after, .sidenote:before {
-  content: counter(sidenote-counter) " ";
   font-family: et-book-roman-old-style;
   position: relative;
   vertical-align: baseline; }
@@ -208,6 +204,7 @@ img {
 
 .sidenote:before {
   content: counter(sidenote-counter) " ";
+  font-size: 1rem;
   top: -0.5rem; }
 
 blockquote .sidenote, blockquote .marginnote {
@@ -286,7 +283,7 @@ label.margin-toggle:not(.sidenote-number) {
     padding-left: 8%;
     padding-right: 8%; }
 
-  section > p, section > footer, section > table {
+  hr, section > p, section > footer, section > table {
     width: 100%; }
 
   pre.code {
@@ -353,22 +350,12 @@ p.signoff {
 body {
   max-width: 1150px; }
 
-/*
- * Proper wrapping for lists that occur outside of sections.
+/**
+ * Makes it so that top-level <p> don't need to be wrapped in <section>
  */
-section > ol,
-article > ol,
-section > ul,
-article > ul {
-  width: 50%;
-  -webkit-padding-start: 5%; }
+article > p {
+  width: 55%; }
 
-@media (max-width: 760px) {
-  section > ol,
-  article > ol,
-  section > ul,
-  article > ul {
-    width: 90%; } }
 /*
  * Enable hyphens on supported platforms
  */
@@ -443,197 +430,189 @@ pre:not(.sourceCode) code {
 .fullwidth pre:not(.sourceCode) {
   width: 100%; }
 
-/* We've handled all the margin/padding on the outer-most div.sourceCode */
-div.sourceCode pre {
-  padding: 0;
-  margin: 0; }
-
 @media (max-width: 760px) {
   div.sourceCode,
   pre:not(.sourceCode) {
     width: 100%; } }
-/* Pandoc-generated line numbers need the same stylings as normal <code> */
-.lineNumbers pre {
-  line-height: 1.42;
-  font-size: 0.9rem; }
-
 div.sourceCode, pre:not(.sourceCode) {
   background: #FDF6E3; }
 
 pre code {
   color: #657B83; }
 
-code > span.kw {
+code span.kw {
   color: #859900;
   font-weight: bold;
   font-style: normal; }
 
 /* Keyword */
-code > span.dt {
+code span.dt {
   color: #B58900;
   font-weight: normal;
   font-style: normal; }
 
 /* DataType */
-code > span.dv {
+code span.dv {
   color: #2AA198;
   font-weight: normal;
   font-style: normal; }
 
 /* DecVal */
-code > span.bn {
+code span.bn {
   color: #2AA198;
   font-weight: normal;
   font-style: normal; }
 
 /* BaseN */
-code > span.fl {
+code span.fl {
   color: #2AA198;
   font-weight: normal;
   font-style: normal; }
 
 /* Float */
-code > span.ch {
+code span.ch {
   color: #2AA198;
   font-weight: normal;
   font-style: normal; }
 
 /* Char */
-code > span.st {
+code span.st {
   color: #2AA198;
   font-weight: normal;
   font-style: normal; }
 
 /* String */
-code > span.co {
+code span.co {
   color: #93A1A1;
   font-weight: normal;
   font-style: italic; }
 
 /* Comment */
-code > span.ot {
+code span.ot {
   color: #268BD2;
   font-weight: normal;
   font-style: normal; }
 
 /* Other */
-code > span.al {
+code span.al {
   color: #DC322F;
   font-weight: bold;
   font-style: normal; }
 
 /* Alert */
-code > span.fu {
+code span.fu {
   color: #268BD2;
   font-weight: normal;
   font-style: normal; }
 
 /* Function */
-code > span.er {
+code span.er {
   color: #DC322F;
   font-weight: bold;
   font-style: normal; }
 
 /* Error */
-code > span.wa {
+code span.wa {
   color: #CB4B16;
   font-weight: bold;
   font-style: italic; }
 
 /* Warning */
-code > span.cn {
+code span.cn {
   color: #2AA198;
   font-weight: normal;
   font-style: normal; }
 
 /* Constant */
-code > span.sc {
+code span.sc {
   color: #DC322F;
   font-weight: normal;
   font-style: normal; }
 
 /* SpecialChar */
-code > span.vs {
+code span.vs {
   color: #657B83;
   font-weight: normal;
   font-style: normal; }
 
 /* VerbatimString */
-code > span.ss {
+code span.ss {
   color: #DC322F;
   font-weight: normal;
   font-style: normal; }
 
 /* SpecialString */
-code > span.im {
+code span.im {
   color: #657B83;
   font-weight: normal;
   font-style: normal; }
 
 /* Import */
-code > span.va {
+code span.va {
   color: #268BD2;
   font-weight: normal;
   font-style: normal; }
 
 /* Variable */
-code > span.cf {
+code span.cf {
   color: #859900;
   font-weight: bold;
   font-style: normal; }
 
 /* ControlFlow */
-code > span.op {
+code span.op {
   color: #859900;
   font-weight: bold;
   font-style: normal; }
 
 /* Operator */
-code > span.bu {
+code span.bu {
   color: #657B83;
   font-weight: normal;
   font-style: normal; }
 
 /* BuiltIn */
-code > span.ex {
+code span.ex {
   color: #657B83;
   font-weight: normal;
   font-style: normal; }
 
 /* Extension */
-code > span.pp {
+code span.pp {
   color: #CB4B16;
   font-weight: normal;
   font-style: normal; }
 
 /* Preprocessor */
-code > span.at {
+code span.at {
   color: #657B83;
   font-weight: normal;
   font-style: normal; }
 
 /* Attribute */
-code > span.do {
+code span.do {
   color: #93A1A1;
   font-weight: normal;
   font-style: italic; }
 
 /* Documentation */
-code > span.an {
+code span.an {
   color: #93A1A1;
   font-weight: bold;
   font-style: italic; }
 
 /* Annotation */
-code > span.cv {
+code span.cv {
   color: #93A1A1;
   font-weight: bold;
   font-style: italic; }
 
 /* CommentVar */
-code > span.in {
+code span.in {
   color: #93A1A1;
   font-weight: bold;
   font-style: italic; }
 
 /* Information */
+a.sourceLine::before {
+  text-decoration: none; }

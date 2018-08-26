@@ -19,9 +19,8 @@ permalink: '/:categories/:slug/'
 markdown: Pandoc
 pandoc:
   extensions:
-    - smart
     - section-divs
-    - from: 'markdown+tex_math_single_backslash'
+    - from: 'markdown+smart+tex_math_single_backslash'
     - filter: 'pandoc-sidenote'
 
 # HACK(jez): We have to hard code the site.baseurl here

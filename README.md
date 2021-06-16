@@ -5,20 +5,21 @@
 ## Setup
 
 ```
-$ brew install pandoc
-$ brew install pandoc-sidenote
-$ mkvirtualenv thoughts
-$ gem install bundler
-$ bundle install
+brew install pandoc
+brew install pandoc-sidenote
 ```
 
 ## Using
 
+You might have to `dropbox stop` on Linux for inotify problems.
+
 ```
-octopress new draft
+bundle exec jekyll serve --drafts
 
-octopress publish
+bundle exec octopress new draft my-slug
 
-octopress new page
+bundle exec jekyll build
+bundle exec octopress publish
+
+bundle exec octopress new page
 ```
-
